@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use App\Models\TabelKapal;
 use App\Models\TabelUser;
@@ -37,4 +37,6 @@ class TabelShipment extends Model
     {
         return $this->belongsTo(TabelShipper::class, 'id_shipper', 'id_shipper');
     }
+
+
 }

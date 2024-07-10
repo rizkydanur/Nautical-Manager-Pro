@@ -17,4 +17,6 @@ class TabelUser extends Model
         'jabatan',
         'status',
     ];
+
+
 }

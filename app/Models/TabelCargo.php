@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -17,4 +17,6 @@ class TabelCargo extends Model
     {
         return $this->belongsTo(TabelShipper::class, 'id_shipper', 'id_shipper');
     }
+
+
 }

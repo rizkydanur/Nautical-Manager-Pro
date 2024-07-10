@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Waktu pembuatan: 19 Jun 2024 pada 08.15
+-- Waktu pembuatan: 10 Jul 2024 pada 06.29
 -- Versi server: 5.7.39
 -- Versi PHP: 7.4.33
 
@@ -269,6 +269,13 @@ CREATE TABLE `tabel_vendor` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data untuk tabel `tabel_vendor`
+--
+
+INSERT INTO `tabel_vendor` (`id`, `nama_vendor`, `vendor_barang`, `alamat`, `email`, `no_tlfn`, `created_at`, `updated_at`) VALUES
+(1, 'test a', 'test a', 'test a', 'a@gmail.com', '000000000', NULL, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -482,7 +489,7 @@ ALTER TABLE `tabel_user`
 -- AUTO_INCREMENT untuk tabel `tabel_vendor`
 --
 ALTER TABLE `tabel_vendor`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`

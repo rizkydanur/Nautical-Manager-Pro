@@ -35,4 +35,6 @@ class TabelInventory extends Model
     {
         return $this->belongsTo(TabelVendor::class, 'id_vendor', 'id');
     }
+
+
 }

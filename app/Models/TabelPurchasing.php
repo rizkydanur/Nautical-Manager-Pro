@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use App\Models\TabelKapal;
 use App\Models\TabelUser;
@@ -31,4 +31,6 @@ class TabelPurchasing extends Model
     {
         return $this->belongsTo(TabelListBarang::class, 'id_list_barang', 'id_list_barang');
     }
+
+
 }

@@ -20,4 +20,6 @@ class TabelKapal extends Model
         'gross_ton_kapal',
         'dwt_kapal',
     ];
+
+
 }

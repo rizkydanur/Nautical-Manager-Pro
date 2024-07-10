@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use App\Models\TabelKapal;
 use App\Models\TabelUser;
@@ -25,4 +25,6 @@ class TabelOnBoard extends Model
     {
         return $this->belongsTo(TabelUser::class, 'id_user', 'id');
     }
+
+
 }

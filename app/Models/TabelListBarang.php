@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use App\Models\TabelVendor;
 use Illuminate\Database\Eloquent\Model;
@@ -18,4 +18,5 @@ class TabelListBarang extends Model
     {
         return $this->belongsTo(TabelVendor::class, 'id_vendor_barang', 'id');
     }
+
 }

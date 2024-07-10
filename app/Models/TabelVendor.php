@@ -18,4 +18,6 @@ class TabelVendor extends Model
         'email',
         'no_tlfn',
     ];
+
+
 }
